@@ -38,7 +38,6 @@ The player can then choose whether to play another game.
 
 - C++
 - Visual Studio
-- C++11 or later
 
 ## How to Run
 

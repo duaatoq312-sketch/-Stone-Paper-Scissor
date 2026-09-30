@@ -1,44 +1,52 @@
-\# Stone, Paper, Scissors Game in C++
+# Stone Paper Scissor Game
 
+## About
 
+A C++ console game where the player plays Stone, Paper, Scissors against the computer.
 
-An interactive command-line implementation of the classic Stone, Paper, Scissors game built in C++. The game allows a human player to compete against a computer opponent across multiple rounds.
+I built this project to practice working with functions, enums, structs, random numbers, and controlling the flow of a multi-round game.
 
+## How It Works
 
+The player chooses:
 
-\## Features
+- `1` → Stone
+- `2` → Paper
+- `3` → Scissors
 
+The computer randomly chooses its move, and the program determines the winner of each round.
 
+After the rounds are finished, the program displays the final results, including:
 
-\* \*\*Randomized AI Moves:\*\* The computer selects moves using C++ random number generation.
+- Player wins
+- Computer wins
+- Draws
 
-\* \*\*Round \& Game Tracking:\*\* Displays round-by-round results and overall game statistics, including player wins, computer wins, and draws.
+The player can then choose whether to play another game.
 
-\* \*\*Replay Functionality:\*\* Allows users to play multiple games in a single session.
+## What I Practiced
 
-\* \*\*Clean Architecture:\*\* Uses enums, structs, and modular functions to organize the code.
+- Using `enum` to represent game choices and results.
+- Using `struct` to group related game information.
+- Creating reusable functions instead of putting everything inside `main()`.
+- Generating random computer choices.
+- Managing multiple rounds and keeping track of results.
+- Controlling the flow of a console application.
+- Using loops and conditions to handle game logic.
 
+## Technologies
 
+- C++
+- Visual Studio
+- C++11 or later
 
-\## Requirements \& Prerequisites
+## How to Run
 
+1. Open `stone-paper-scissor-project.slnx` in Visual Studio.
+2. Build the project.
+3. Run the program.
+4. Follow the instructions displayed in the console.
 
+## Notes
 
-\* A C++ compiler supporting C++11 or higher, such as GCC, Clang, or MSVC.
-
-\* Windows OS, because the project uses the Windows-native `system("cls")` command for screen clearing.
-
-
-
-\## How to Play
-
-
-
-1\. Enter `1` for Stone, `2` for Paper, or `3` for Scissors when prompted.
-
-2\. View the round winner and overall score.
-
-3\. Enter `Y` or `N` when prompted to play another match or exit.
-
-
-
+This is a practice project I built while learning C++. It focuses on applying programming fundamentals to a complete small game.
